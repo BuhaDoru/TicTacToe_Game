@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tic Tac Toe</title>
+    <div class="card text-center">
+      <h5 class="card-header">Tic Tac Toe</h5>
+      <div class="card-body">
+        <h5 class="card-title">To start the game just click in the desired box.</h5>
+        <p class="card-text"></p>
+        <a href="#" class="btn btn-primary" onclick="restartGame()">Restart Game</a>
+      </div>
+    </div>
+    <div id = "main">
+     <br><br>
+        
+        <input type="text" id="b1" onclick=
+            "getValue_1(); playerTurn();" readonly>
+   
+        <input type="text" id="b2" onclick=
+            "getValue_2(); playerTurn();" readonly>
+   
+        <input type="text" id="b3" onclick=
+            "getValue_3(); playerTurn();" readonly>
+        <br><br>
+   
+        <input type="text" id="b4" onclick=
+            "getValue_4(); playerTurn();" readonly>
+               
+        <input type="text" id="b5" onclick=
+            "getValue_5(); playerTurn();" readonly>
+   
+        <input type="text" id="b6" onclick=
+            "getValue_6(); playerTurn();" readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+            "getValue_7(); playerTurn();" readonly>
+   
+        <input type="text" id="b8" onclick=
+            "getValue_8(); playerTurn();" readonly>
+   
+        <input type="text" id="b9" onclick=
+            "getValue_9(); playerTurn();" readonly>
+        <br><br><br>
+  
+   
+        <br><br>
+        <!-- Space to show player turn -->
+        <p id="print"></p>
+      </div>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
